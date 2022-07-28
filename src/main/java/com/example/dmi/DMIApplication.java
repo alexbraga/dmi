@@ -1,10 +1,10 @@
-package com.example.domainmodel;
+package com.example.dmi;
 
-import com.example.domainmodel.entities.*;
-import com.example.domainmodel.repositories.ClientRepository;
-import com.example.domainmodel.repositories.OrderItemRepository;
-import com.example.domainmodel.repositories.OrderRepository;
-import com.example.domainmodel.repositories.ProductRepository;
+import com.example.dmi.entities.*;
+import com.example.dmi.repositories.ClientRepository;
+import com.example.dmi.repositories.OrderItemRepository;
+import com.example.dmi.repositories.OrderRepository;
+import com.example.dmi.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -14,7 +14,7 @@ import java.time.Instant;
 import java.util.Arrays;
 
 @SpringBootApplication
-public class DomainModelImplementationApplication implements CommandLineRunner {
+public class DMIApplication implements CommandLineRunner {
     @Autowired
     private ClientRepository clientRepository;
 
@@ -28,7 +28,7 @@ public class DomainModelImplementationApplication implements CommandLineRunner {
     private OrderItemRepository orderItemRepository;
 
     public static void main(String[] args) {
-        SpringApplication.run(DomainModelImplementationApplication.class, args);
+        SpringApplication.run(DMIApplication.class, args);
     }
 
     @Override

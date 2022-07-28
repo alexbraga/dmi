@@ -1,23 +1,23 @@
-package com.example.domainmodel.entities;
+package com.example.dmi.entities;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "tb_client")
-public class Client {
+@Table(name = "tb_product")
+public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private String email;
+    private double price;
 
-    public Client() {
+    public Product() {
     }
 
-    public Client(Long id, String name, String email) {
+    public Product(Long id, String name, double price) {
         this.id = id;
         this.name = name;
-        this.email = email;
+        this.price = price;
     }
 
     public Long getId() {
@@ -36,11 +36,11 @@ public class Client {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
+    public double getPrice() {
+        return price;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setPrice(double price) {
+        this.price = price;
     }
 }

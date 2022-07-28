@@ -1,7 +1,7 @@
-package com.example.domainmodel.controllers;
+package com.example.dmi.controllers;
 
-import com.example.domainmodel.entities.Order;
-import com.example.domainmodel.repositories.OrderRepository;
+import com.example.dmi.entities.Order;
+import com.example.dmi.repositories.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

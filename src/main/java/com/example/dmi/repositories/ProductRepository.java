@@ -1,6 +1,6 @@
-package com.example.domainmodel.repositories;
+package com.example.dmi.repositories;
 
-import com.example.domainmodel.entities.Product;
+import com.example.dmi.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {

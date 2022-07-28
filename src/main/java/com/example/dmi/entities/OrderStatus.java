@@ -1,4 +1,4 @@
-package com.example.domainmodel.entities;
+package com.example.dmi.entities;
 
 public enum OrderStatus {
     PENDING, CONFIRMED, DELIVERED, CANCELED

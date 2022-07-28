@@ -1,6 +1,6 @@
-package com.example.domainmodel.repositories;
+package com.example.dmi.repositories;
 
-import com.example.domainmodel.entities.OrderItem;
+import com.example.dmi.entities.OrderItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OrderItemRepository extends JpaRepository<OrderItem, Long> {

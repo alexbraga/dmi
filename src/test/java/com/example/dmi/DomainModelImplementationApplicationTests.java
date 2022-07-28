@@ -1,4 +1,4 @@
-package com.example.domainmodel;
+package com.example.dmi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

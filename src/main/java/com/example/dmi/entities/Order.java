@@ -1,4 +1,4 @@
-package com.example.domainmodel.entities;
+package com.example.dmi.entities;
 
 import javax.persistence.*;
 import java.time.Instant;
