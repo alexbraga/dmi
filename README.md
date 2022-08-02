@@ -52,11 +52,11 @@
 
 ### Class Diagram
 
-<img src="https://github.com/alexbraga/dmi/blob/master/Class%20Diagram.drawio.png?raw=true" alt="Class Diagram" width="750" />
+<img src="https://github.com/alexbraga/dmi/blob/master/diagrams/Class%20Diagram.drawio.png?raw=true" alt="Class Diagram" width="750" />
 
 ### Object Diagram
 
-<img src="https://github.com/alexbraga/dmi/blob/master/Object%20Diagram.drawio.png?raw=true" alt="Class Diagram" width="750" />
+<img src="https://github.com/alexbraga/dmi/blob/master/diagrams/Object%20Diagram.drawio.png?raw=true" alt="Class Diagram" width="750" />
 
 ---
 
