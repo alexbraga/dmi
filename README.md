@@ -86,10 +86,10 @@ git clone https://github.com/alexbraga/dmi.git
 #### API Endpoints
 
 - Get all orders in the database:
-  - `/orders`
+  - `GET` `/orders`
 
 - Get order by id:
-  - `/orders/{id}`
+  - `GET` `/orders/{id}`
 
 ---
 
