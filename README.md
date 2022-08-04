@@ -63,15 +63,14 @@
 ## How it works
 
 1. <a href="#clone-this-repository">Clone this repository</a>
-2. Open the project folder with your preferred IDE
-3. Run `DMIApplication.java`
+2. <a href="#run-the-application">Run the application</a>
 
 #### Pre-requisites
 
 Before getting started, you'll need to have the following tools installed on your machine:
 
 - [Git](https://git-scm.com)
-- [Java OpenJDK](https://www.oracle.com/java/technologies/downloads/)
+- [Java OpenJDK 11](https://www.oracle.com/java/technologies/downloads/)
 - [Maven](https://maven.apache.org/)
 
 In addition, you might also want an IDE to work with the code, like
@@ -82,6 +81,23 @@ In addition, you might also want an IDE to work with the code, like
 ```
 git clone https://github.com/alexbraga/dmi.git
 ```
+
+#### Run the application
+
+```bash
+# Go to the application root folder
+$ cd dmi/
+
+# Install the dependencies
+$ mvn dependency:resolve
+
+# Compile and run the application
+$ mvn spring-boot:run
+```
+
+- Alternatively, open the project folder with your preferred IDE and run `DMIApplication.java`
+
+- The server will start at `localhost:8080`
 
 #### API Endpoints
 
