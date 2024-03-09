@@ -91,7 +91,7 @@ $ cd dmi/
 # Install the dependencies and build the application
 $ mvn install
 
-# Compile and run the application
+# Run the application
 $ mvn spring-boot:run
 ```
 
