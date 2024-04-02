@@ -63,7 +63,7 @@
 ## How it works
 
 1. <a href="#clone-this-repository">Clone this repository</a>
-2. <a href="#run-the-application">Run the application</a>
+2. <a href="#running-the-application">Run the application</a>
 3. <a href="#api-endpoints">API Endpoints</a>
 
 ### Pre-requisites
