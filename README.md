@@ -64,8 +64,9 @@
 
 1. <a href="#clone-this-repository">Clone this repository</a>
 2. <a href="#run-the-application">Run the application</a>
+3. <a href="#api-endpoints">API Endpoints</a>
 
-#### Pre-requisites
+### Pre-requisites
 
 Before getting started, you'll need to have the following tools installed on your machine:
 
@@ -76,30 +77,34 @@ Before getting started, you'll need to have the following tools installed on you
 In addition, you might also want an IDE to work with the code, like
 [IntelliJ IDEA](https://www.jetbrains.com/idea/).
 
-#### Clone this repository
+### Clone this repository
 
 ```
 git clone https://github.com/alexbraga/dmi.git
 ```
 
-#### Run the application
+### Running the application
 
-```bash
-# Go to the application root folder
-$ cd dmi/
-
-# Install the dependencies and build the application
-$ mvn install
-
-# Run the application
-$ mvn spring-boot:run
+Navigate to the root directory of the project
+```
+cd dmi
 ```
 
-- Alternatively, open the project folder with your preferred IDE and run `DMIApplication.java`
+Build the project
+```
+mvn compile
+```
+
+Run the application
+```
+mvn spring-boot:run
+```
+
+- Alternatively, open the project folder with your preferred IDE and run `/src/main/java/com/example/dmi/DMIApplication.java`
 
 - The server will start at `localhost:8080`
 
-#### API Endpoints
+### API Endpoints
 
 - Get all orders in the database:
   - `GET` `/orders`
